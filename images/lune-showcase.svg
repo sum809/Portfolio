@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7e1d7"/>
+      <stop offset="1" stop-color="#c9c0b3"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fcfaf5" stop-opacity=".88"/>
+      <stop offset=".55" stop-color="#b6aea2" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#756f68" stop-opacity=".78"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="45" stdDeviation="30" flood-color="#39342f" flood-opacity=".25"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#bg)"/>
+  <circle cx="1240" cy="180" r="420" fill="#d8d0c5"/>
+  <path d="M0 810C320 690 590 840 880 690c220-114 442-128 720-26v436H0Z" fill="#b6aa9c"/>
+  <g opacity=".7" fill="none" stroke="#7d746b" stroke-width="2">
+    <circle cx="1280" cy="760" r="220"/><circle cx="1280" cy="760" r="148"/>
+  </g>
+  <g filter="url(#shadow)" transform="translate(585 160)">
+    <rect x="115" y="0" width="270" height="145" rx="18" fill="#302e2b"/>
+    <rect x="154" y="24" width="192" height="98" rx="8" fill="#1b1a18"/>
+    <rect x="0" y="118" width="500" height="690" rx="72" fill="url(#glass)" stroke="#f8f5ef" stroke-width="5"/>
+    <rect x="62" y="225" width="376" height="390" rx="8" fill="#f0ebe2" fill-opacity=".9"/>
+    <text x="250" y="330" text-anchor="middle" fill="#272522" font-family="Georgia,serif" font-size="32" letter-spacing="10">LUNE</text>
+    <path d="M183 384c38-70 92-70 134 0-24-18-46-26-67-26s-43 8-67 26Z" fill="none" stroke="#272522" stroke-width="5"/>
+    <text x="250" y="486" text-anchor="middle" fill="#655f58" font-family="Arial,sans-serif" font-size="16" letter-spacing="5">EAU DE PARFUM</text>
+    <text x="250" y="548" text-anchor="middle" fill="#655f58" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">01 · SILENT ORBIT</text>
+    <path d="M58 690h384" stroke="#f8f5ef" stroke-opacity=".5"/>
+  </g>
+  <g font-family="Arial,sans-serif" fill="#34312d">
+    <text x="82" y="104" font-size="24" letter-spacing="8">NICHE FRAGRANCE</text>
+    <text x="82" y="160" font-family="Georgia,serif" font-size="92">LUNE</text>
+    <text x="82" y="225" font-size="20" letter-spacing="4">SCENT · SPACE · MEMORY</text>
+  </g>
+</svg>

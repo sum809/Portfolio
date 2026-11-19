@@ -88,6 +88,47 @@
   .project-grid {
     gap: 60px 20px;
   }
+
+  .skills {
+    display: grid;
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 35px;
+
+    padding-block: 80px;
+  }
+
+
+  .skills-title {
+    position: static;
+    margin-bottom: 0;
+  }
+
+  .skills-title h2 {
+    font-size: clamp(42px, 6vw, 58px);
+  }
+
+  .skill-board {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .skill {
+    min-height: 160px;
+    padding: 20px;
+  }
+
+  .skill h3 {
+    margin-top: 35px;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .about-copy {
+    max-width: 650px;
+  }
 }
 
 /* ==============================
@@ -667,14 +708,29 @@
     font-size: 7px;
   }
 
-  .skill-board,
-  .skills,
-  .about {
+  .skills, .about {
     grid-template-columns: 1fr;
   }
 
+  .skills {
+    display: block;
+    padding-block: 75px;
+  }
+
   .skills-title {
-    position: static;
+    margin-bottom: 40px;
+  }
+
+  .skill-board {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .skill {
+    min-height: 145px;
+  }
+
+  .skill h3 {
+    margin-top: 28px;
   }
 
   .contact {
@@ -693,7 +749,8 @@
   .modal-grid {
     grid-template-columns: 1fr;
   }
-   .project-spreads {
+
+  .project-spreads {
     width: 100%;
     margin: 0 auto;
 
@@ -1078,23 +1135,26 @@
   }
 
   .skills {
-    grid-template-columns: 1fr;
+    display: block;
+    padding-block: 70px;
   }
 
   .skills-title {
-    position: static;
-  }
-
-  .skills-title h2 {
-    font-size: clamp(48px, 14vw, 62px);
+    margin-bottom: 35px;
   }
 
   .skill-board {
     grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .skill {
-    min-height: 175px;
+    min-height: 130px;
+    padding: 20px;
+  }
+
+  .skill h3 {
+    margin-top: 24px;
   }
 
   .about {
@@ -1149,7 +1209,7 @@
   .modal-grid {
     grid-template-columns: 1fr;
   }
-   .project-spreads {
+  .project-spreads {
     width: 100%;
     margin: 0 auto;
 
@@ -1234,5 +1294,37 @@
     right: 14px;
 
     font-size: 95px;
+  }
+    .project-grid {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+
+  .more-projects__heading {
+    align-items: flex-start;
+    margin-bottom: 45px;
+  }
+
+  .skill-board {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .skill {
+    min-height: 140px;
+    padding: 22px;
+  }
+
+  .skill h3 {
+    margin-top: 26px;
+  }
+
+  .about {
+    gap: 48px;
+  }
+
+  .about-copy h2 {
+    max-width: 340px;
+    font-size: clamp(27px, 8vw, 34px);
   }
 }
